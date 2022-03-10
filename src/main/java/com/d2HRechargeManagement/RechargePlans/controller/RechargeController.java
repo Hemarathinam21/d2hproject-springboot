@@ -1,13 +1,13 @@
-package com.d2HRechargeManagement.RechargePlans;
+package com.d2HRechargeManagement.RechargePlans.controller;
 
 import com.d2HRechargeManagement.RechargePlans.model.RechargeModel;
 import com.d2HRechargeManagement.RechargePlans.service.RechargePlanService;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+
 @CrossOrigin(origins = "*",maxAge = 3600)
 @RestController
 @RequestMapping("/user")
